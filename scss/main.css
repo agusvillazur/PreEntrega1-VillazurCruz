@@ -21,7 +21,7 @@ html {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: url(media/wallpaper2.jpg);
+  background-image: url(/media/wallpaper2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
