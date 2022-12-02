@@ -25,9 +25,10 @@ if (agePrompt>=16) {
   alert('You now have access to our catalog:')
 } else {
   alert('Sorry! Our products contain high levels of caffeine and are not recommended for customers under the age of 16.');
-  window.location.href="http://www.google.com";
   alert(`Come back in a few years!`);
+  window.location.href = 'http://www.google.com';
 }
+
 
 alert(`Each energy drink is only $4.99!
 
