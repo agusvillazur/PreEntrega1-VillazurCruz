@@ -21,22 +21,21 @@ alert(`Hi ${nameEntered}!`);
 
 var agePrompt=prompt("Please enter your age");
 
-if (agePrompt>=16) {
-  alert('You now have access to our catalog:')
-} else {
+if (agePrompt<16) {
   alert('Sorry! Our products contain high levels of caffeine and are not recommended for customers under the age of 16.');
   window.location.href = 'http://www.google.com';
-  alert(`Come back in a few years!`); 
+  alert(`Come back in a few years!`);   
+} else {
+  alert('You now have access to our catalog:')
 }
 
+  alert(`Each energy drink is only $4.99!
 
-alert(`Each energy drink is only $4.99!
-
-Here are our prices and discounts:
-1 can = $4.99 + shipping fee
-1 pack (6 cans) = 10% discount + shipping fee
-+2 packs = 25% and no shipping fee
-7 or more packs = 35% and no shipping fee`);
+  Here are our prices and discounts:
+  1 can = $4.99 + shipping fee
+  1 pack (6 cans) = 10% discount + shipping fee
+  +2 packs = 25% and no shipping fee
+  7 or more packs = 35% and no shipping fee`);
 
 let quantity = parseInt(prompt("How many items do you want?"));
 
